@@ -22,12 +22,12 @@ batch_size = 32
 subset, random = True, False  # greedy
 # subset, random = True, True  # random
 subset_size = .4 if subset else 1.0
-epochs = 15
+epochs = 5
 reg = 1e-4
 runs = 5
 save_subset = False
 
-folder = f'/tmp/mnist'
+folder = f'results/mnist'
 
 
 model = Sequential()
